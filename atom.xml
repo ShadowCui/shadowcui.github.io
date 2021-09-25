@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-25T00:54:06.624Z</updated>
+  <updated>2021-09-25T11:53:33.521Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>python的excel操作</title>
+    <title>mysql使用记录</title>
     <link href="http://example.com/2021/09/25/mysql-shi-yong-ji-lu/"/>
     <id>http://example.com/2021/09/25/mysql-shi-yong-ji-lu/</id>
     <published>2021-09-25T00:18:18.000Z</published>
-    <updated>2021-09-25T00:54:06.624Z</updated>
+    <updated>2021-09-25T11:53:33.521Z</updated>
     
     
       
