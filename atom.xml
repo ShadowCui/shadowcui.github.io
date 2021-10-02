@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-10-01T07:08:07.494Z</updated>
+  <updated>2021-10-02T10:22:53.771Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ctfshow爆破刷题记录</title>
+    <link href="http://example.com/2021/10/02/ctfshow-bao-po-shua-ti-ji-lu/"/>
+    <id>http://example.com/2021/10/02/ctfshow-bao-po-shua-ti-ji-lu/</id>
+    <published>2021-10-02T10:21:24.000Z</published>
+    <updated>2021-10-02T10:22:53.771Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Web21&quot;&gt;&lt;a href=&quot;#Web21&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="CTF" scheme="http://example.com/categories/CTF/"/>
+    
+    
+    <category term="CTF" scheme="http://example.com/tags/CTF/"/>
+    
+    <category term="Web" scheme="http://example.com/tags/Web/"/>
+    
+    <category term="爆破" scheme="http://example.com/tags/%E7%88%86%E7%A0%B4/"/>
+    
+    <category term="WP" scheme="http://example.com/tags/WP/"/>
+    
+  </entry>
   
   <entry>
     <title>ctfshow信息搜集刷题记录</title>
@@ -42,11 +73,11 @@
     
     <category term="Web" scheme="http://example.com/tags/Web/"/>
     
+    <category term="WP" scheme="http://example.com/tags/WP/"/>
+    
     <category term="信息搜集" scheme="http://example.com/tags/%E4%BF%A1%E6%81%AF%E6%90%9C%E9%9B%86/"/>
     
     <category term="社工" scheme="http://example.com/tags/%E7%A4%BE%E5%B7%A5/"/>
-    
-    <category term="WP" scheme="http://example.com/tags/WP/"/>
     
   </entry>
   

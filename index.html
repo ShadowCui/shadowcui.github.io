@@ -489,20 +489,23 @@ HTTPS（HyperText Transfer Protocol
                 <div class="container">
                     <div class="row">
                         <div class="col s10 offset-s1">
-                            <div class="title center-align">ctfshow信息搜集刷题记录</div>
+                            <div class="title center-align">ctfshow爆破刷题记录</div>
                             <div class="description center-align">
                                 
-                                    Web1F12直接拿flag
-Web2右键被禁用，ctrl+u
-Web3题目提示没有思路的时候可以抓抓包，直接上burp
-抓包重放拿到flag
+                                    Web21题目提示是爆破，而且给了个zip压缩包
+解压缩以后发现是一个爆破字典
+登陆一下抓包
 
-Web4提示：总有人把后台地址写入robots，帮黑阔大佬们引路。
-直接查看robots.tx
+Basic后面有个base64的加密，解密一下看看
+
+得到了密码的格式
+放到攻击模块，选择Sniper模式在刚才的位置添加美元号
+
+接下来构造p
                                 
                             </div>
                             <div class="cover-btns">
-                                <a href="/2021/10/01/ctfshow-xin-xi-sou-ji-shua-ti-ji-lu/" class="waves-effect waves-light btn"
+                                <a href="/2021/10/02/ctfshow-bao-po-shua-ti-ji-lu/" class="waves-effect waves-light btn"
                                    target="_blank">
                                     <i class="icon fa fa-eye fa-fw"></i>阅读更多
                                 </a>
@@ -534,6 +537,35 @@ sudo apt-get install mysql-server -y
                             </div>
                             <div class="cover-btns">
                                 <a href="/2021/09/25/mysql-shi-yong-ji-lu/" class="waves-effect waves-light btn"
+                                   target="_blank">
+                                    <i class="icon fa fa-eye fa-fw"></i>阅读更多
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            
+            <div class="carousel-item amber white-text carousel-post bg-cover"
+                 style="background-image: url('/medias/banner/2.jpg');">
+                <div class="container">
+                    <div class="row">
+                        <div class="col s10 offset-s1">
+                            <div class="title center-align">ctfshow信息搜集刷题记录</div>
+                            <div class="description center-align">
+                                
+                                    Web1F12直接拿flag
+Web2右键被禁用，ctrl+u
+Web3题目提示没有思路的时候可以抓抓包，直接上burp
+抓包重放拿到flag
+
+Web4提示：总有人把后台地址写入robots，帮黑阔大佬们引路。
+直接查看robots.tx
+                                
+                            </div>
+                            <div class="cover-btns">
+                                <a href="/2021/10/01/ctfshow-xin-xi-sou-ji-shua-ti-ji-lu/" class="waves-effect waves-light btn"
                                    target="_blank">
                                     <i class="icon fa fa-eye fa-fw"></i>阅读更多
                                 </a>
@@ -681,7 +713,7 @@ sudo apt-get install mysql-server -y
 
     
     
-    <div class="col s12 m6" >
+    <div class="col s12" >
         
              <div class="post-card" style="background-image: url('/medias/banner/0.jpg')">
         
@@ -696,12 +728,8 @@ sudo apt-get install mysql-server -y
                 <a href="/2021/09/24/ctf-web-ji-chu-zhi-shi/">
                     <h3 class="post-title">CTF-Web基础知识</h3>
                 </a>
-                <p class="post-description">
-                    
-                        HTTP协议简介
-HTTP（HyperText Transfer Protocol）叫超文本传输协议，Web服务器和客户端直接进行数据传输的
-                    
-                </p>
+                <p class="post-description">HTTP协议简介
+HTTP（HyperText Transfer Protocol）叫超文本传输协议，Web服务器和客户端直接进行数据传输的规则，是一个无状态的应用层协议</p>
                 <a href="/2021/09/24/ctf-web-ji-chu-zhi-shi/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #FF5E3A 0%, #FF2A68 100%)" target="_blank">
                     <i class="icon far fa-eye fa-fw"></i>阅读更多
                 </a>
@@ -710,7 +738,7 @@ HTTP（HyperText Transfer Protocol）叫超文本传输协议，Web服务器和�
     </div>
     
     
-    <div class="col s12 m6" >
+    <div class="col s12 m6" data-aos="zoom-in-up">
         
              <div class="post-card" style="background-image: url('/medias/banner/2.jpg')">
         
@@ -722,18 +750,15 @@ HTTP（HyperText Transfer Protocol）叫超文本传输协议，Web服务器和�
                         
                     
                 </div>
-                <a href="/2021/10/01/ctfshow-xin-xi-sou-ji-shua-ti-ji-lu/">
-                    <h3 class="post-title">ctfshow信息搜集刷题记录</h3>
+                <a href="/2021/10/02/ctfshow-bao-po-shua-ti-ji-lu/">
+                    <h3 class="post-title">ctfshow爆破刷题记录</h3>
                 </a>
-                <p class="post-description">
-                    
-                        Web1F12直接拿flag
-Web2右键被禁用，ctrl+u
-Web3题目提示没有思路的时候可以抓抓包，直接上burp
-抓包重放拿到fla
-                    
-                </p>
-                <a href="/2021/10/01/ctfshow-xin-xi-sou-ji-shua-ti-ji-lu/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #EF4DB6 0%, #C643FC 100%)" target="_blank">
+                <p class="post-description">Web21题目提示是爆破，而且给了个zip压缩包
+解压缩以后发现是一个爆破字典
+登陆一下抓包
+
+Basic后面有个base64的加密，解密一</p>
+                <a href="/2021/10/02/ctfshow-bao-po-shua-ti-ji-lu/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #EF4DB6 0%, #C643FC 100%)" target="_blank">
                     <i class="icon far fa-eye fa-fw"></i>阅读更多
                 </a>
             </div>
@@ -756,18 +781,43 @@ Web3题目提示没有思路的时候可以抓抓包，直接上burp
                 <a href="/2021/09/25/mysql-shi-yong-ji-lu/">
                     <h3 class="post-title">mysql使用记录</h3>
                 </a>
-                <p class="post-description">
-                    
-                        环境配置：
+                <p class="post-description">环境配置：
 Ubuntu18.04
 MySQL安装首先将apt源进行更新
 sudo apt-get update
 
 安装mysql服务
-su
-                    
-                </p>
+su</p>
                 <a href="/2021/09/25/mysql-shi-yong-ji-lu/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #1AD6FD 0%, #1D62F0 100%)" target="_blank">
+                    <i class="icon far fa-eye fa-fw"></i>阅读更多
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="col s12" data-aos="zoom-in-up">
+        
+             <div class="post-card" style="background-image: url('/medias/banner/2.jpg')">
+        
+            <div class="post-body">
+                <div class="post-categories">
+                    
+                        
+                            <a href="/categories/CTF/" class="category">CTF</a>
+                        
+                    
+                </div>
+                <a href="/2021/10/01/ctfshow-xin-xi-sou-ji-shua-ti-ji-lu/">
+                    <h3 class="post-title">ctfshow信息搜集刷题记录</h3>
+                </a>
+                <p class="post-description">Web1F12直接拿flag
+Web2右键被禁用，ctrl+u
+Web3题目提示没有思路的时候可以抓抓包，直接上burp
+抓包重放拿到flag
+
+Web4提示：总有人把后</p>
+                <a href="/2021/10/01/ctfshow-xin-xi-sou-ji-shua-ti-ji-lu/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #FFCC00 0%, #FF9500 100%)" target="_blank">
                     <i class="icon far fa-eye fa-fw"></i>阅读更多
                 </a>
             </div>
@@ -790,17 +840,13 @@ su
                 <a href="/2021/09/29/ctfshow-ming-ling-zhi-xing-shua-ti-ji-lu/">
                     <h3 class="post-title">ctfshow命令执行刷题记录</h3>
                 </a>
-                <p class="post-description">
-                    
-                        Web29&lt;?php
+                <p class="post-description">Web29&amp;lt;?php
 
 /*
 # -*- coding: utf-8 -*-
 # @Author: h1xa
-# @Date:   2
-                    
-                </p>
-                <a href="/2021/09/29/ctfshow-ming-ling-zhi-xing-shua-ti-ji-lu/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #FFCC00 0%, #FF9500 100%)" target="_blank">
+# @Date:   2</p>
+                <a href="/2021/09/29/ctfshow-ming-ling-zhi-xing-shua-ti-ji-lu/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%)" target="_blank">
                     <i class="icon far fa-eye fa-fw"></i>阅读更多
                 </a>
             </div>
@@ -824,6 +870,75 @@ su
     <!-- 所有文章卡片 -->
     <article id="articles" class="container articles">
         <div class="row article-row">
+            
+             <!-- 隐藏某个文章 -->
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2021/10/02/ctfshow-bao-po-shua-ti-ji-lu/">
+                        <div class="card-image">
+                            
+                            <img src="/medias/banner/2.jpg" class="responsive-img" alt="ctfshow爆破刷题记录">
+                            
+                            <span class="card-title">ctfshow爆破刷题记录</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                Web21题目提示是爆破，而且给了个zip压缩包
+解压缩以后发现是一个爆破字典
+登陆一下抓包
+
+Basic后面有个base64的加密，解密一下看看
+
+得到了密码的格式
+放到攻击模块，选择Sniper模式在刚才的位置添加美元号
+
+接下来构造p
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-02
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/CTF/" class="post-category">
+                                    CTF
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/CTF/">
+                            <span class="chip bg-color">CTF</span>
+                        </a>
+                        
+                        <a href="/tags/Web/">
+                            <span class="chip bg-color">Web</span>
+                        </a>
+                        
+                        <a href="/tags/%E7%88%86%E7%A0%B4/">
+                            <span class="chip bg-color">爆破</span>
+                        </a>
+                        
+                        <a href="/tags/WP/">
+                            <span class="chip bg-color">WP</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+              <!-- 隐藏某个文章 -->
             
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
@@ -877,16 +992,16 @@ Web4提示：总有人把后台地址写入robots，帮黑阔大佬们引路。
                             <span class="chip bg-color">Web</span>
                         </a>
                         
+                        <a href="/tags/WP/">
+                            <span class="chip bg-color">WP</span>
+                        </a>
+                        
                         <a href="/tags/%E4%BF%A1%E6%81%AF%E6%90%9C%E9%9B%86/">
                             <span class="chip bg-color">信息搜集</span>
                         </a>
                         
                         <a href="/tags/%E7%A4%BE%E5%B7%A5/">
                             <span class="chip bg-color">社工</span>
-                        </a>
-                        
-                        <a href="/tags/WP/">
-                            <span class="chip bg-color">WP</span>
                         </a>
                         
                     </div>
@@ -1168,7 +1283,7 @@ HTTPS（HyperText Transfer Protocol
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">12.5k</span>
+                        class="white-color">13.6k</span>
             
             
             
